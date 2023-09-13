@@ -1,6 +1,6 @@
 # Pig Game
 
-Pig Game is a simple two-player dice game implemented using HTML, CSS, and JavaScript. Players take turns rolling a dice and accumulate points based on the dice rolls. The goal is to reach a certain score (in this case, 25) to win the game.
+Pig Game is a simple two-player dice game implemented using HTML, CSS, and JavaScript. Players take turns rolling a dice and accumulate points based on the dice rolls. The goal is to reach a certain score (in this case, 100) to win the game.
 
 ## How to Play
 
@@ -10,7 +10,7 @@ Pig Game is a simple two-player dice game implemented using HTML, CSS, and JavaS
 4. If you roll a 1, your current score will be reset to 0, and it will be the next player's turn.
 5. If you roll any other number, that number will be added to your current score.
 6. To hold your current score and add it to your total score, click the "Hold" button.
-7. The first player to reach a total score of 25 or more wins the game.
+7. The first player to reach a total score of 100 or more wins the game.
 8. You can start a new game at any time by clicking the "New game" button.
 
 ## Code Structure
@@ -31,16 +31,16 @@ The code is organized into HTML, CSS, and JavaScript files:
 
 3. If the rolled number is not 1, it's added to the current player's current score. If it is 1, the current score resets to 0, and the turn switches to the other player.
 
-4. Clicking the "Hold" button adds the current score to the player's total score. If a player's total score reaches 25 or more, they win the game.
+4. Clicking the "Hold" button adds the current score to the player's total score. If a player's total score reaches 100 or more, they win the game.
 
 5. The game tracks the active player, updates scores, and provides a visual indication of the active player.
 
 6. You can start a new game at any time by clicking the "New game" button, which resets all scores and settings.
 
-## Contrubuters
+## Contributors
 
 [Devakinandan23](https://github.com/Devakinandan23)
 
 ## Enjoy the Game!
 
-Have fun playing Pig Game! Test your luck and strategy against a friend, and aim to be the first to reach 25 points.
+Have fun playing Pig Game! Test your luck and strategy against a friend, and aim to be the first to reach 100 points.
