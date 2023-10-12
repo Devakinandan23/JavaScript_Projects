@@ -66,4 +66,13 @@ Pig Game is a two-player dice game implemented using HTML, CSS, and JavaScript. 
 
 ---
 
+## 4.Weather Application
+
+### Description
+This application uses an API from openweathermap.org to display weather data for cities around the world. It also allows users to search for new locations
+
+## Technologies used
+- HTML
+- CSS
+- JavaScript
 Each of the READMEs above provides a brief overview of the project, instructions on how to use it, a list of contributors, and the technologies used.
