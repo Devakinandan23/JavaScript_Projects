@@ -9,14 +9,13 @@ let options = {
     weekday: "long",
 };
 let day = today.toLocaleDateString("en-US", options);
-// console.log(day);
 
 
 const displayDay = document.getElementById("date");
 displayDay.innerHTML = day;
 
 //function to get input from the user and checking if location is found.
-function getWeather() {
+let getWeather = () => {
     const locationInput = document.getElementById("locationInput");
     const location = locationInput.value.trim();
 
@@ -32,7 +31,7 @@ function getWeather() {
 }
 
 //display weather by using auto detecting the user location
-function currentLocationweather() {
+let currentLocationweather = () => {
     if ("geolocation" in navigator) {
         navigator.geolocation.getCurrentPosition(
             function (position) {
@@ -51,7 +50,7 @@ function currentLocationweather() {
         console.log("Geolocation is not supported by this browser.");
     }
 }
-function getWeatherDetails(apiUrl) {
+let getWeatherDetails = (apiUrl) => {
     fetch(apiUrl)
         //parsing the json
         .then((response) => response.json())
@@ -69,7 +68,7 @@ function getWeatherDetails(apiUrl) {
 }
 
 //sends the weahter data to the weahterInfo div  using the data from the json
-function displayWeather(data) {
+let displayWeather = (data) => {
     const weatherInfoDiv = document.getElementById("weatherInfo");
     weatherInfoDiv.innerHTML = `
     <h2>${data.name}, ${data.sys.country}</h2>
