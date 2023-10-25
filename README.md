@@ -75,4 +75,7 @@ This application uses an API from openweathermap.org to display weather data for
 - HTML
 - CSS
 - JavaScript
+
 Each of the READMEs above provides a brief overview of the project, instructions on how to use it, a list of contributors, and the technologies used.
+
+
