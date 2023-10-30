@@ -75,7 +75,25 @@ This application uses an API from openweathermap.org to display weather data for
 - HTML
 - CSS
 - JavaScript
+## 6. BMI calculator
 
+### Description
+A simple health report web app based on BMI of a person , It gives suggestion based on our BMI.
+
+### How to Play
+1. Open the `index.html` file in your web browser.
+2.Input the necessary details such as height, weight etc.
+3. get the health Report.
+
+### Contributors
+- - [@Damanbind898]([https://github.com/amanbind898](https://github.com/amanbind898)) - Developed the Health Report web app based on BMI.
+
+### Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+---
 Each of the READMEs above provides a brief overview of the project, instructions on how to use it, a list of contributors, and the technologies used.
 
 
