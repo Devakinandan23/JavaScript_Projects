@@ -78,5 +78,5 @@ function createCard(title, discription, link, image) {
   cards[0].appendChild(li);
 }
 projects.map((e) => {
-  createCard(e.title, e.discription, e.link, e.image);
+  createCard(e.title, e.description, e.link, e.image);
 });
