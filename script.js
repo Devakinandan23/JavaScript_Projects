@@ -4,32 +4,28 @@ const projects = [
     description:
       "Guess the Number Game is a web-based project where players try to guess a random number.",
     link: "./Guess the number game/index.html",
-    image:
-      "https://codingartistweb.com/wp-content/uploads/2023/05/Number-Guessing-Game-01.png",
+    image: "./images/Number-Guessing-Game-01.png",
   },
   {
     title: "Model_Boxs",
     description:
       "Model_Boxs is a web project focused on modeling boxes in a 3D space.",
     link: "./Model_Boxs/index.html",
-    image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fjavascript-course-for-beginner-to-expert-data-visualization%2F&psig=AOvVaw0gNu2uCTp2qDVNVqIKoCZW&ust=1698856737636000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPi23NTcoIIDFQAAAAAdAAAAABAE.png",
+    image: "./images/2459100_87b1_6.jpg",
   },
   {
     title: "Pig-Game",
     description:
       "Pig-Game is a web-based game where players roll dice to score points and avoid rolling a '1'.",
     link: "./Pig-Game/index.html",
-    image:
-      "https://user-images.githubusercontent.com/85943633/261966753-14ee9bbd-716e-49a8-bb85-b52b82dd685e.png",
+    image: "./images/261966753-14ee9bbd-716e-49a8-bb85-b52b82dd685e.png",
   },
   {
     title: "Weather Application",
     description:
       "Weather Application is a web app that provides users with real-time weather information for a specified location.",
     link: "./Weather Application/index.html",
-    image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcodingartistweb.com%2F2022%2F07%2Fweather-app-with-javascript%2F&psig=AOvVaw2gRx7pktSfmDqUzeJsLJoE&ust=1698856804099000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJius_TcoIIDFQAAAAAdAAAAABAE.png",
+    image: "./images/maxresdefault.jpg",
   },
   {
     title: "BMI Calculation",
