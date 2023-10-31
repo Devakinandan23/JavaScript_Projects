@@ -11,7 +11,7 @@ const projects = [
     description:
       "Model_Boxs is a web project focused on modeling boxes in a 3D space.",
     link: "./Model_Boxs/index.html",
-    image: "./images/2459100_87b1_6.jpg",
+    image: "./images/2459100_87b1_6.png",
   },
   {
     title: "Pig-Game",
@@ -25,15 +25,14 @@ const projects = [
     description:
       "Weather Application is a web app that provides users with real-time weather information for a specified location.",
     link: "./Weather Application/index.html",
-    image: "./images/maxresdefault.jpg",
+    image: "./images/maxresdefault.png",
   },
   {
     title: "BMI Calculation",
     description:
       "BMI Calculation is another web-based project that helps users calculate their Body Mass Index.",
     link: "./BMI Calculation/index.html",
-    image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcodingartistweb.com%2Fwp-content%2Fuploads%2F2021%2F02%2Fbmi-calc-01.png&tbnid=OKMFsHT2D2FHhM&vet=12ahUKEwiu8bea3aCCAxVUzaACHQ3sDcsQMygCegQIARBS..i&imgrefurl=https%3A%2F%2Fcodingartistweb.com%2F2021%2F02%2Fbmi-calculator-javascript-step-by-step-javascript-project%2F&docid=UOy5Nrp246mxBM&w=1280&h=720&q=BMI%20javascript%20images&client=firefox-b-d&ved=2ahUKEwiu8bea3aCCAxVUzaACHQ3sDcsQMygCegQIARBS.png",
+    image: "./images/bmi-calc-01.png",
   },
 ];
 
