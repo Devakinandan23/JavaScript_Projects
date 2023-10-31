@@ -37,7 +37,6 @@ const projects = [
 ];
 
 // You can access the projects array to display the project details on your website.
-
 const cards = document.getElementsByClassName("cards");
 
 function createCard(title, discription, link, image) {
