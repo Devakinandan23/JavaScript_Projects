@@ -40,7 +40,7 @@ const projects = [
 
 const cards = document.getElementsByClassName("cards");
 
-function createCard(title, description, link, image) {
+function createCard(title, discription, link, image) {
   const li = document.createElement("li");
   li.classList.add("cards__item");
   const div1 = document.createElement("div");
