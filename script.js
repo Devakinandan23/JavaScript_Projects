@@ -1,35 +1,35 @@
 const projects = [
   {
     title: "Guess the Number Game",
-    description:
+    discription:
       "Guess the Number Game is a web-based project where players try to guess a random number.",
     link: "./Guess the number game/index.html",
     image: "./images/Number-Guessing-Game-01.png",
   },
   {
     title: "Model_Boxs",
-    description:
+    discription:
       "Model_Boxs is a web project focused on modeling boxes in a 3D space.",
     link: "./Model_Boxs/index.html",
     image: "./images/2459100_87b1_6.png",
   },
   {
     title: "Pig-Game",
-    description:
+    discription:
       "Pig-Game is a web-based game where players roll dice to score points and avoid rolling a '1'.",
     link: "./Pig-Game/index.html",
     image: "./images/261966753-14ee9bbd-716e-49a8-bb85-b52b82dd685e.png",
   },
   {
     title: "Weather Application",
-    description:
+    discription:
       "Weather Application is a web app that provides users with real-time weather information for a specified location.",
     link: "./Weather Application/index.html",
     image: "./images/maxresdefault.png",
   },
   {
     title: "BMI Calculation",
-    description:
+    discription:
       "BMI Calculation is another web-based project that helps users calculate their Body Mass Index.",
     link: "./BMI Calculation/index.html",
     image: "./images/bmi-calc-01.png",
@@ -78,5 +78,5 @@ function createCard(title, description, link, image) {
   cards[0].appendChild(li);
 }
 projects.map((e) => {
-  createCard(e.title, e.description, e.link, e.image);
+  createCard(e.title, e.discription, e.link, e.image);
 });
