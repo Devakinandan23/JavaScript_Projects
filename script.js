@@ -24,7 +24,7 @@ const projects = [
     title: "Weather Application",
     description:
       "Weather Application is a web app that provides users with real-time weather information for a specified location.",
-    link: "./Weather Application/index.html",
+    link: "./weather application/index.html",
     image: "./images/maxresdefault.png",
   },
   {
