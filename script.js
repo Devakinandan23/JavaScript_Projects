@@ -40,7 +40,7 @@ const projects = [
 
 const cards = document.getElementsByClassName("cards");
 
-function createCard(title, description, link, image) {
+function createCard(title, discription, link, image) {
   const li = document.createElement("li");
   li.classList.add("cards__item");
   const div1 = document.createElement("div");
@@ -78,5 +78,5 @@ function createCard(title, description, link, image) {
   cards[0].appendChild(li);
 }
 projects.map((e) => {
-  createCard(e.title, e.description, e.link, e.image);
+  createCard(e.title, e.discription, e.link, e.image);
 });
