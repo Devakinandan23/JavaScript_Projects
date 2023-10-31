@@ -1,0 +1,246 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Poppins:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%
+}
+
+@media only screen and (width<=75em) {
+	html {
+		font-size: 59%
+	}
+}
+
+@media only screen and (width<=56.25em) {
+	html {
+		font-size: 56%
+	}
+}
+
+@media only screen and (width>=112.5em) {
+	html {
+		font-size: 65%
+	}
+}
+
+body {
+    font-family: poppins, sans-serif;
+   
+    height: 100vh;
+    margin: 0;
+    background-color: #EB4B98;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+ margin: 0 auto;
+    
+}
+hr{color: transparent; /* Set text color to transparent */
+    background-color: transparent; /* Set background color to transparent */
+    border: none; /* Remove border (optional, but recommended) */
+   
+    margin: 10px;
+}
+header {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 2rem;
+    background-color:#02394a;
+    color: #dbbd9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.container {
+    border: #0d1511 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F26DF9;
+
+}
+/* mediaquery screen for container for mobile and laptop display */
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 0;;
+        width: 100%;
+    }
+    .prescription{
+        width: 100%;
+        margin: 1px;
+    }
+}
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px;
+}
+input {
+    border-radius: 5px;
+    border: #0a140f 2px solid;
+    color: #0a140f;
+    font-family: poppins, sans-serif;
+    margin: 10px;
+    padding: 5px;
+}
+label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1px;
+}
+.btn {
+    border: none;
+    width: 6em;
+    height: 3em;
+    border-radius: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: #dc3575;
+    cursor: pointer;
+    transition: all 450ms ease-in-out;
+  }
+  
+  .sparkle {
+    fill: #AAAAAA;
+    transition: all 800ms ease;
+  }
+  
+  .text {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: medium;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(0deg,#df7cf3,#ea3fce);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -4px 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 4px rgba(255, 255, 255, 0.2),
+    0px 0px 180px 0px #ff17c1;
+    transform: translateY(-2px);
+  }
+  
+  .btn:hover .text {
+    color: white;
+  }
+  
+  .btn:hover .sparkle {
+    fill: white;
+    transform: scale(1.2);
+  } 
+.prescription {
+   
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: #0a140f 2px solid;
+    border-radius: 10px;
+   /* paper svg uploaded locally  */
+    background-image: url("img/kelan-Paper-texture-filter.svg");
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 900px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+    .prescription{
+        width: 100%;
+        margin: 1px;
+    }
+}
+
+.rxLogo{
+    top: 0;
+    left: 0;
+}
+.rxText{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5.5rem;
+    font-weight: bold;
+    margin: 10px;
+}
+.heading-report{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+   
+}
+#userData{
+    margin: 10px;
+    padding: 10px;
+    border: #121916 2px solid;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#prescriptionContent{
+    margin: 10px;
+    padding: 10px;
+    border: #131916 2px solid;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.prescriptionContent{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.docw{
+    margin-left: 1em;
+    font-weight: bold;
+    font-family: 'Bad Script', cursive;
+    font-size: 1.5rem;
+    color: blue;
+}
+.foot{
+justify-content: space-around;
+}
+.date{
+    display: flex;
+}
+ /* health qoute by using api  */
+.qoute{
+    margin: 10px;
+    padding: 10px;
+    border: #131916 2px solid;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.qouteText{
+    font-family: 'Bad Script', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0a140f;
+}

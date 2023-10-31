@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="text-content">health Report</div>
+        </div>
+    </header>
+    <div class="wrapper">
+    <div class="container">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name"><br>
+        <label for="age">Age</label>
+        <input type="number" id="age" placeholder="Enter your age">
+        <br>
+        <label for="weight">Weight (kg)</label>
+        <input type="number" id="weight" placeholder="Enter your weight">
+        <br>
+        <label for="height">Height (cm)</label>
+        <input type="number" id="height" placeholder="Enter your height">
+        <br>
+        <button class="btn text sparkle" onclick="analyzeHealth()">Analyze</button>
+    </div>
+    <hr>
+    <div class="prescription">
+         <!-- Rx logo -->
+         <div class="rxLogo">
+            <div class="rxText">℞</div>
+        </div>
+        
+       
+        <div id="userData">
+            <div class="heading-report">Report Card</div>
+            <div class="prescriptionContent">
+                <div class="prescriptionHeading">Name:</div>
+                <div id="nameContent" class="docw"></div>
+            </div>
+            <div class="prescriptionContent">
+                <div class="prescriptionHeading">Age:</div>
+                <div id="ageContent" class="docw"></div>
+            </div>
+        </div>
+       
+        <div id="prescriptionContent">
+            <div class="prescriptionContent">
+                <div class="prescriptionHeading">Weight:</div>
+                <div id="weightContent"  class="docw"></div>
+            </div>
+            <div class="prescriptionContent">
+                <div class="prescriptionHeading">Height:</div>
+                <div id="heightContent"  class="docw"></div>
+            </div>
+            <div class="prescriptionContent">
+                <div class="prescriptionHeading">BMI:</div>
+                <div id="bmiContent"  class="docw"></div>
+            </div>
+            <div class="prescriptionContent">
+                <div class="prescriptionHeading">Status:</div>
+                <div id="categoryContent"  class="docw"></div>
+            </div>
+            <div class="prescriptionContent">
+                <div class="prescriptionHeading">Suggestion:</div>
+                <div id="suggestionContent" class="docw"></div>
+            </div>
+        </div>
+        <div class="prescriptionContent foot">
+           <div class="date"> <div class="prescriptionHeading">Date:</div>
+            <div id="dateContent" class="docw"></div></div> <div class="sign">
+                <div class="prescriptionHeading">Signature:</div>
+                <div id="signatureContent" class="docw"></div>
+            </div>
+    </div>
+    </div>
+<!-- health qoute by using api -->
+    <div class="footer">
+        <div class="qoute">
+            <div class="qouteText">"Health is a state of complete harmony of the body, mind and spirit. When one is free from physical disabilities and mental distractions, the gates of the soul open."</div>
+            <div class="qouteAuthor">- B.K.S. Iyengar</div>
+            
+    </div>
+    </div>
+</div>
+</body>
+</body>
+</html>

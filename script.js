@@ -24,14 +24,14 @@ const projects = [
     title: "Weather Application",
     description:
       "Weather Application is a web app that provides users with real-time weather information for a specified location.",
-    link: "./weather app/index.html",
+    link: "./Weather Application/index.html",
     image: "./images/maxresdefault.png",
   },
   {
     title: "BMI Calculation",
     description:
       "BMI Calculation is another web-based project that helps users calculate their Body Mass Index.",
-    link: "./BMI calc/index.html",
+    link: "./BMI calculation/index.html",
     image: "./images/bmi-calc-01.png",
   },
 ];
