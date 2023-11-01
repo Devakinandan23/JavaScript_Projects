@@ -45,7 +45,7 @@ const projects = [
 // You can access the projects array to display the project details on your website.
 const cards = document.getElementsByClassName("cards");
 
-function createCard(title, discription, link, image) {
+function createCard(title, description, link, image) {
   const li = document.createElement("li");
   li.classList.add("cards__item");
   const div1 = document.createElement("div");
@@ -65,7 +65,7 @@ function createCard(title, discription, link, image) {
 
   const p = document.createElement("p");
   p.classList.add("card__text");
-  p.innerHTML = discription;
+  p.innerHTML = description;
   div0.appendChild(p);
 
   const a = document.createElement("a");
@@ -83,5 +83,5 @@ function createCard(title, discription, link, image) {
   cards[0].appendChild(li);
 }
 projects.map((e) => {
-  createCard(e.title, e.discription, e.link, e.image);
+  createCard(e.title, e.description, e.link, e.image);
 });
