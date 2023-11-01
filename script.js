@@ -36,7 +36,8 @@ const projects = [
   },
   {
     title: "Password Generator",
-    description: "password generator",
+    description:
+      "password generator with customizable length and character options, password strength indicator, and copy-to-clipboard functionality.",
     link: "./Password Generator Project/index.html",
     image: "./images/password_generator.jpg",
   },
